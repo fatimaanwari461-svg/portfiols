@@ -24,7 +24,7 @@ export default function About() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
         >
-        
+      
 
           <h1 className="mt-4 text-3xl font-bold leading-tight sm:text-5xl">
             Hi, I am Fatima.
