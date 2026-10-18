@@ -14,7 +14,7 @@ const projects = [
     title: "Designing a Responsive Website",
     category: "HTML & CSS",
     year: "2026",
-    image: "./assets/Group 1 (1).png",
+    image: "/src/assets/Group 1 (1).png",
     url: "https://web4-six-ivory.vercel.app/",
   },
   {
