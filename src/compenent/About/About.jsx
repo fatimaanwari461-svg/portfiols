@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-
+import img66 from "../../assets/about.png"
 export default function About() {
   return (
     <main className="mx-auto min-h-[60vh] w-[92%] max-w-6xl">
@@ -12,7 +12,7 @@ export default function About() {
           className="overflow-hidden rounded-3xl border border-white/80 bg-white/40 p-2 shadow-lg shadow-purple-100/40"
         >
           <img
-            src="/src/assets/about.png"
+            src={img66}
             alt="Fatima Anwari"
             className="max-h-[460px] w-full rounded-2xl object-cover object-fill"
           />

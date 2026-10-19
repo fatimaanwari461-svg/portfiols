@@ -1,12 +1,20 @@
 
 import { motion } from "framer-motion";
 
+import img11 from "../../assets/OIP(2).webp"
+import img22 from "../../assets/1213png.png"
+
+import img33 from "../../assets/OIP(3).webp"
+import img44 from "../../assets/OIP(177).webp"
+import img55 from "../../assets/OIP(66).webp"
+
+
 const experiments = [
-  { image: "/src/assets/OIP(2).webp", title: "" },
-  { image: "/src/assets/1213png.png", title: "" },
-  { image: "/src/assets/OIP(3).webp", title: "" },
-  { image: "/src/assets/OIP(177).webp", title: "" },
-  { image: "/src/assets/OIP(66).webp", title: "" },
+  { image: img11, title: "" },
+  { image:img22, title: "" },
+  { image: img33, title: "" },
+  { image: img44, title: "" },
+  { image: img55, title: "" },
 ];
 
 export default function Expirment() {
