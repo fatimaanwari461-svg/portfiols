@@ -1,6 +1,6 @@
 
 import { NavLink } from "react-router-dom";
-
+import img77 from "../../assets/profile.png"
 export default function Navbar() {
   const links = [
     { name: "Projects", path: "/" },
@@ -20,7 +20,7 @@ export default function Navbar() {
           className="shrink-0 md:ml-[56px] md:mt-[10px]"
         >
           <img
-            src="/src/assets/profile.png"
+            src={img77}
             alt="Profile"
             className="h-[70px] w-[70px] rounded-[20px] object-cover"
           />
