@@ -1,34 +1,41 @@
 
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
+import img1 from "../../assets/Group3.png"
+import img2 from "../../assets/Group1(1).png"
+import img3 from "../../assets/Group1(7).png"
+import img4 from "../../assets/Group1.png"
+
+
+
 
 const projects = [
   {
     title: "Building a Responsive Website",
     category: "HTML & CSS",
     year: "2026",
-    image: "/src/assets/Group3.png",
+    image: img1,
     url: "https://bootcomp2.vercel.app/",
   },
   {
     title: "Designing a Responsive Website",
     category: "HTML & CSS",
     year: "2026",
-    image: "/src/assets/Group1(1).png",
+    image: img2,
     url: "https://web4-six-ivory.vercel.app/",
   },
   {
-    title: "Creating a Modern Figma Design",
+    title: "Creating a Modern Figma Design", 
     category: "Figma",
     year: "2026",
-    image: "/src/assets/Group1(7).png",
+    image: img3,
     url: "https://zohco-tau.vercel.app/",
   },
   {
     title: "Responsive Website Design",
     category: "HTML & CSS",
     year: "2026",
-    image: "/src/assets/Group1.png",
+    image: img4,
     url: "https://designerup-eight.vercel.app/",
   },
 ];
