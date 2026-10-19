@@ -2,11 +2,11 @@
 import { motion } from "framer-motion";
 
 const experiments = [
-  { image: "/src/assets/OIP (2).webp", title: "" },
+  { image: "/src/assets/OIP(2).webp", title: "" },
   { image: "/src/assets/1213png.png", title: "" },
-  { image: "/src/assets/OIP (3).webp", title: "" },
-  { image: "/src/assets/OIP (177).webp", title: "" },
-  { image: "/src/assets/OIP (66).webp", title: "" },
+  { image: "/src/assets/OIP(3).webp", title: "" },
+  { image: "/src/assets/OIP(177).webp", title: "" },
+  { image: "/src/assets/OIP(66).webp", title: "" },
 ];
 
 export default function Expirment() {
